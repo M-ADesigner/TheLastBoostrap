@@ -1,0 +1,70 @@
+
+
+/*----------CSS EN GENERAL---------------*/
+* {
+
+    box-sizing: border-box;
+  }
+
+
+.body .html{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+/*-------------------------------Cabezera-------------------*/
+/*Insertamos una imagen dentro del header y slider*/ 
+.header .carousel-item   {
+
+      width: 100%;
+      height: 550px;
+}
+
+
+.cardInfo{
+  width: auto;
+  height: auto;
+}
+
+.cardInfo .card{
+  justify-content: center;
+  text-align: center;
+  display: block;
+}
+
+
+
+/* Featurettes
+------------------------- */
+
+.divider-imgText {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-headText {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+
+
+/*----------------------FOOTER----------------------------*/
+
+.divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.myNameM{
+  margin-left: 15px;
+}
+
